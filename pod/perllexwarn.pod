@@ -220,126 +220,127 @@ will be lost.
 =for warnings.pl begin
 
     all -+
-         |
-         +- closure
-         |
-         +- deprecated
-         |
-         +- exiting
-         |
-         +- experimental --+
-         |                 |
-         |                 +- experimental::autoderef
-         |                 |
-         |                 +- experimental::lexical_subs
-         |                 |
-         |                 +- experimental::lexical_topic
-         |                 |
-         |                 +- experimental::postderef
-         |                 |
-         |                 +- experimental::regex_sets
-         |                 |
-         |                 +- experimental::smartmatch
-         |
-         +- glob
-         |
-         +- imprecision
-         |
-         +- io ------------+
-         |                 |
-         |                 +- closed
-         |                 |
-         |                 +- exec
-         |                 |
-         |                 +- layer
-         |                 |
-         |                 +- newline
-         |                 |
-         |                 +- pipe
-         |                 |
-         |                 +- syscalls
-         |                 |
-         |                 +- unopened
-         |
-         +- misc
-         |
-         +- missing
-         |
-         +- numeric
-         |
-         +- once
-         |
-         +- overflow
-         |
-         +- pack
-         |
-         +- portable
-         |
-         +- recursion
-         |
-         +- redefine
+    |    |
+    |    +- closure
+    |    |
+    |    +- deprecated
+    |    |
+    |    +- exiting
+    |    |
+    |    +- experimental --+
+    |    |                 |
+    |    |                 +- experimental::autoderef
+    |    |                 |
+    |    |                 +- experimental::lexical_subs
+    |    |                 |
+    |    |                 +- experimental::lexical_topic
+    |    |                 |
+    |    |                 +- experimental::postderef
+    |    |                 |
+    |    |                 +- experimental::regex_sets
+    |    |                 |
+    |    |                 +- experimental::smartmatch
+    |    |
+    |    +- glob
+    |    |
+    |    +- imprecision
+    |    |
+    |    +- io ------------+
+    |    |                 |
+    |    |                 +- closed
+    |    |                 |
+    |    |                 +- exec
+    |    |                 |
+    |    |                 +- layer
+    |    |                 |
+    |    |                 +- newline
+    |    |                 |
+    |    |                 +- pipe
+    |    |                 |
+    |    |                 +- syscalls
+    |    |                 |
+    |    |                 +- unopened
+    |    |
+    |    +- misc
+    |    |
+    |    +- missing
+    |    |
+    |    +- numeric
+    |    |
+    |    +- once
+    |    |
+    |    +- overflow
+    |    |
+    |    +- pack
+    |    |
+    |    +- portable
+    |    |
+    |    +- recursion
+    |    |
+    |    +- redefine
+    |    |
+    |    +- regexp
+    |    |
+    |    +- severe --------+
+    |    |                 |
+    |    |                 +- debugging
+    |    |                 |
+    |    |                 +- inplace
+    |    |                 |
+    |    |                 +- internal
+    |    |                 |
+    |    |                 +- malloc
+    |    |
+    |    +- signal
+    |    |
+    |    +- substr
+    |    |
+    |    +- syntax --------+
+    |    |                 |
+    |    |                 +- ambiguous
+    |    |                 |
+    |    |                 +- bareword
+    |    |                 |
+    |    |                 +- digit
+    |    |                 |
+    |    |                 +- illegalproto
+    |    |                 |
+    |    |                 +- parenthesis
+    |    |                 |
+    |    |                 +- precedence
+    |    |                 |
+    |    |                 +- printf
+    |    |                 |
+    |    |                 +- prototype
+    |    |                 |
+    |    |                 +- qw
+    |    |                 |
+    |    |                 +- reserved
+    |    |                 |
+    |    |                 +- semicolon
+    |    |
+    |    +- taint
+    |    |
+    |    +- threads
+    |    |
+    |    +- uninitialized
+    |    |
+    |    +- unpack
+    |    |
+    |    +- untie
+    |    |
+    |    +- utf8 ----------+
+    |    |                 |
+    |    |                 +- non_unicode
+    |    |                 |
+    |    |                 +- nonchar
+    |    |                 |
+    |    |                 +- surrogate
+    |    |
+    |    +- void
+    new -+
          |
          +- redundant
-         |
-         +- regexp
-         |
-         +- severe --------+
-         |                 |
-         |                 +- debugging
-         |                 |
-         |                 +- inplace
-         |                 |
-         |                 +- internal
-         |                 |
-         |                 +- malloc
-         |
-         +- signal
-         |
-         +- substr
-         |
-         +- syntax --------+
-         |                 |
-         |                 +- ambiguous
-         |                 |
-         |                 +- bareword
-         |                 |
-         |                 +- digit
-         |                 |
-         |                 +- illegalproto
-         |                 |
-         |                 +- parenthesis
-         |                 |
-         |                 +- precedence
-         |                 |
-         |                 +- printf
-         |                 |
-         |                 +- prototype
-         |                 |
-         |                 +- qw
-         |                 |
-         |                 +- reserved
-         |                 |
-         |                 +- semicolon
-         |
-         +- taint
-         |
-         +- threads
-         |
-         +- uninitialized
-         |
-         +- unpack
-         |
-         +- untie
-         |
-         +- utf8 ----------+
-         |                 |
-         |                 +- non_unicode
-         |                 |
-         |                 +- nonchar
-         |                 |
-         |                 +- surrogate
-         |
-         +- void
 
 =for warnings.pl end
 

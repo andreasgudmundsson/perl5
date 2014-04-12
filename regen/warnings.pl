@@ -104,10 +104,14 @@ my $tree = {
                         }],
 
        	'missing'	=> [ 5.019, DEFAULT_OFF],
-       	'redundant'	=> [ 5.019, DEFAULT_OFF],
 
        	 #'default'	=> [ 5.008, DEFAULT_ON ],
   	}],
+
+'new' => [ 5.019, {
+    'redundant'	=> [ 5.019, DEFAULT_OFF],
+}],
+
 } ;
 
 my @def ;
