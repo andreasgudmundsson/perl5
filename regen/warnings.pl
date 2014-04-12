@@ -723,6 +723,10 @@ sub unimport
 	if ($word eq 'FATAL') {
 	    next; 
 	}
+	elsif ($word eq 'all') {
+	    #Both 'no warnings' and 'no warnings qw/all/' disable 'new' warnings
+	    push @_, 'new';
+	}
 	elsif ($catmask = $Bits{$word}) {
 	    $mask &= ~($catmask | $DeadBits{$word} | $All);
 	}
